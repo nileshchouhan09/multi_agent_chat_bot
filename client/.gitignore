@@ -1,0 +1,21 @@
+# Environment variables
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow example files
+!.env.example
+!.env.sample
+!**/.env.example
+!**/.env.sample
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
